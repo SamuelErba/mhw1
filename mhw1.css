@@ -1,0 +1,81 @@
+header {
+    background-image: url(header4.png);
+    background-size: cover;
+    background-position: center;
+    padding: 0px;
+    height: 103px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  header nav {
+    position: absolute;
+    font-family: 'Red Hat Mono';
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+  }
+  header nav p{
+    font-family: 'Fredoka One';
+    font-style: oblique;
+    font-size: 20px;
+    color: aliceblue;
+  }
+  #ricette h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style:italic;
+  }
+  #rdc h1{
+    font-family: 'Red Hat Mono';
+    font-size: 20px;
+  }
+  #rdc p{
+    font-family:'Courier New', Courier, monospace;
+  }
+  section {
+    background-image: url(sfondoSE.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #final{
+    font-family: 'Caveat',cursive;
+    background-image: url(footer.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0px;
+  }
+  #ref{
+    display: flex;
+    flex-direction:column;
+  }
+  #ref a{
+    margin-top: 20px;
+    font-size: 35px;
+  }
+  #social{
+    display: inline;
+  }
+  #social a{
+    margin-bottom: 30px;
+    font-size: 25px ;
+  }
+  #social img{
+    margin-top: -35px;
+  }
+  #final a{
+    display: flex;
+  }
+  
